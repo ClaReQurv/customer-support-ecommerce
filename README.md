@@ -1,8 +1,17 @@
-# Customer Support Agent Tutorial Episode 4
+# Customer Support Agent Tutorial Episode 5
 
-In this part of the tutorial we created tools to allow our customer support agent to create and retrieve customer profiles. It performs a data protection check to retrieve a customer profile:
+In this final part of the tutorial series, we added on customer and order management to complete the proof of concept chatbot. Customers can now:
 
-![Blank diagram (14)](https://github.com/user-attachments/assets/98d0b452-d12c-43c8-a600-64c007354929)
+- View existing orders
+- Create new orders and update the relevant 'databases'
+
+Take a look at the bottom half of the below diagram to see what we will build:
+
+![Blank diagram (15)](https://github.com/user-attachments/assets/62305fcb-3414-41a2-9e2d-8f306219ccc0)
+
+Here is what one of the final customer journeys look like:
+
+![image](https://github.com/user-attachments/assets/8230d153-22d4-422d-9746-afbeda7ba69c)
 
 
 ## Setup
@@ -25,5 +34,4 @@ To run the frontend you can type:
 streamlit run streamlit_frontend.py
 ```
 
-Happy Agent Building :D"# CustomerSupportAgentEP3" 
-"# CustomerSupportAgentEP5" 
+Happy Agent Building :D
