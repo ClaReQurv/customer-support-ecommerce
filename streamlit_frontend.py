@@ -44,6 +44,7 @@ with main_col:
             and not this_message.content.startswith("DPA check")
             and not this_message.content.startswith("[")
             and not this_message.content.startswith("Order with")
+            and not this_message.content.startswith("No orders")
         ):
             if isinstance(this_message, AIMessage):
                 message_box = st.chat_message("assistant")
